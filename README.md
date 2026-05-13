@@ -78,5 +78,9 @@ vancomycin-healthcare-analytics/
 │   ├── nephrotoxic_drug_usage.png
 │   └── nephrotoxic_alluvial_diagram.png
 ├── dashboard/
+|   ├── README.md
+|   ├── page_1_executive_overview.png
+|   ├── page_2_severity_exposure.png
+|   └── page_3_nephrotoxicity_risk.png
 └── data/
     └── README.md
