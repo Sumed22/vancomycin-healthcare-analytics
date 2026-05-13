@@ -42,8 +42,15 @@ Note: The original dataset is not included due to privacy and data protection co
 ### Vancomycin Concentration by Severity
 ![Vancomycin Concentration](visuals/vancomycin_concentration_by_severity.png)
 
+### Bacterial Sensitivity and Vancomycin Levels
+![Bacterial Sensitivity](visuals/bacterial_sensitivity_violin_plot.png)
+
+### Nephrotoxic Drug Usage
+![Nephrotoxic Drug Usage](visuals/nephrotoxic_drug_usage.png)
+
 ### Nephrotoxic Drug Exposure and Kidney Function
 ![Alluvial Diagram](visuals/nephrotoxic_alluvial_diagram.png)
+
 
 ## Project Files
 - `report/` — final project report
