@@ -51,6 +51,17 @@ Note: The original clinical dataset is not included due to privacy and data prot
 ### Nephrotoxic Drug Exposure and Kidney Function
 ![Alluvial Diagram](visuals/nephrotoxic_alluvial_diagram.png)
 
+## Power BI Dashboard Preview
+
+### Executive Overview
+![Executive Overview](dashboard/page_1_executive_overview.png)
+
+### Severity & Vancomycin Exposure
+![Severity Exposure](dashboard/page_2_severity_exposure.png)
+
+### Nephrotoxicity Risk Factors
+![Nephrotoxicity Risk](dashboard/page_3_nephrotoxicity_risk.png)
+
 ## Repository Structure
 ```text
 vancomycin-healthcare-analytics/
