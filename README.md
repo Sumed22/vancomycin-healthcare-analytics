@@ -7,7 +7,7 @@ This project explores Vancomycin therapy in critically ill ICU patients using he
 The objective was to identify clinical patterns that may support safer and more personalized Vancomycin therapy through descriptive statistics and interpretable visualizations.
 
 ## Dataset
-The dataset contains 922 ICU patients and 63 variables related to demographics, renal function, illness severity, medication use, microbiological findings, and Vancomycin therapy.
+The original dataset contains 922 ICU patients and 63 variables. For the dashboard and visual analysis, records with missing values in key variables such as C24, C48, C72, SAPS, and SOFA were excluded, resulting in an analysis sample of 675 patients.
 
 Note: The original clinical dataset is not included due to privacy and data protection considerations.
 
