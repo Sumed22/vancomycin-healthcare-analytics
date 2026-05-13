@@ -1,7 +1,7 @@
 # Vancomycin Healthcare Analytics & Data Visualization
 
 ## Overview
-This project explores Vancomycin therapy in critically ill ICU patients using clinical data visualization. The analysis focuses on kidney function, illness severity, serum Vancomycin concentrations, bacterial sensitivity, and nephrotoxic drug exposure.
+This project explores Vancomycin therapy in critically ill ICU patients using healthcare data visualization. The analysis focuses on kidney function, illness severity, serum Vancomycin concentrations, bacterial sensitivity, and nephrotoxic drug exposure.
 
 ## Objective
 The objective was to identify clinical patterns that may support safer and more personalized Vancomycin therapy through descriptive statistics and interpretable visualizations.
@@ -9,7 +9,7 @@ The objective was to identify clinical patterns that may support safer and more 
 ## Dataset
 The dataset contains 922 ICU patients and 63 variables related to demographics, renal function, illness severity, medication use, microbiological findings, and Vancomycin therapy.
 
-Note: The original dataset is not included due to privacy and data protection considerations.
+Note: The original clinical dataset is not included due to privacy and data protection considerations.
 
 ## Tools Used
 - R
@@ -51,16 +51,21 @@ Note: The original dataset is not included due to privacy and data protection co
 ### Nephrotoxic Drug Exposure and Kidney Function
 ![Alluvial Diagram](visuals/nephrotoxic_alluvial_diagram.png)
 
-
-## Project Files
-- `report/` — final project report
-- `scripts/` — R code used for visualization
-- `visuals/` — exported figures
-- `dashboard/` — Power BI dashboard screenshots
-- `data/` — dataset note and privacy statement
-
-## What I Learned
-- How to transform clinical data into interpretable visual insights
-- How to use R and Power BI for healthcare analytics
-- How to communicate complex patient-level trends clearly
-- How visualisation can support data-driven clinical decision-making
+## Repository Structure
+```text
+vancomycin-healthcare-analytics/
+│
+├── README.md
+├── report/
+│   └── vancomycin-data-visualization-report.pdf
+├── scripts/
+│   └── vancomycin_visualization.R
+├── visuals/
+│   ├── egfr_severity_trends.png
+│   ├── vancomycin_concentration_by_severity.png
+│   ├── bacterial_sensitivity_violin_plot.png
+│   ├── nephrotoxic_drug_usage.png
+│   └── nephrotoxic_alluvial_diagram.png
+├── dashboard/
+└── data/
+    └── README.md
